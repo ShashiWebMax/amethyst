@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Amethyst Global</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <a href="index.html" class="flex items-center gap-2">
+                        <img src="img/amethyst.png" alt="Amethyst Logo" class="h-10 w-auto">
+                        <span class="text-2xl font-bold text-amethyst tracking-tight">AMETHYST <span
+                                class="text-gray-900 text-lg font-bold">Global</span></span>
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="index.html#digital" class="hover:text-amethyst font-medium transition">Digital & Tech</a>
+                    <a href="index.html#corporate" class="hover:text-amethyst font-medium transition">Corporate</a>
+                    <a href="contact.html"
+                        class="bg-amethyst text-white px-6 py-2 rounded-full font-semibold hover:bg-amethyst-dark transition shadow-lg">Contact
+                        Us</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-600 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="gradient-bg text-white py-16 px-4">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Contact Us</h1>
+            <p class="text-gray-300 text-lg max-w-2xl mx-auto">Get in touch with our team for digital engineering and
+                corporate solutions.</p>
+        </div>
+    </div>
+
+    <section class="py-16 bg-white">
+        <div class="max-w-3xl mx-auto px-4">
+            <div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
+                <form id="contact-form" class="space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+                            <input type="text" id="name" name="name" required
+                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-purple-500 focus:border-transparent transition outline-none"
+                                placeholder="John Doe">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email
+                                Address</label>
+                            <input type="email" id="email" name="email" required
+                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-purple-500 focus:border-transparent transition outline-none"
+                                placeholder="john@example.com">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">Subject</label>
+                        <input type="text" id="subject" name="subject" required
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-purple-500 focus:border-transparent transition outline-none"
+                            placeholder="How can we help?">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                        <textarea id="message" name="message" rows="5" required
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-purple-500 focus:border-transparent transition outline-none"
+                            placeholder="Tell us about your project or query..."></textarea>
+                    </div>
+
+                    <button type="submit" id="submit-btn"
+                        class="w-full bg-amethyst hover:bg-amethyst-dark text-white font-bold py-4 rounded-lg transition shadow-lg flex justify-center items-center">
+                        <span id="btn-text">Send Message</span>
+                        <i class="fas fa-paper-plane ml-2"></i>
+                    </button>
+                    <p id="form-status" class="text-center text-sm font-medium hidden mt-4"></p>
+                </form>
+            </div>
+
+            <div class="mt-12 text-center text-gray-600">
+                <p class="mb-2"><i class="fas fa-envelope mr-2 text-amethyst"></i> info@amethyst.lk</p>
+                <p><i class="fas fa-map-marker-alt mr-2 text-amethyst"></i> Colombo, Sri Lanka</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-400 py-12">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-12">
+            <div>
+                <div class="flex items-center gap-2 mb-4">
+                    <img src="img/amethyst.png" alt="Amethyst Logo" class="h-8 w-auto">
+                    <span class="text-xl font-bold text-white tracking-tight">AMETHYST <span
+                            class="text-gray-400 text-base">Global</span></span>
+                </div>
+                <p class="mt-4 text-sm">Professional corporate and digital services for the modern Sri Lankan economy.
+                </p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4">Quick Links</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="index.html#digital" class="hover:text-amethyst">Digital Development</a></li>
+                    <li><a href="index.html#corporate" class="hover:text-amethyst">Company Registration</a></li>
+                    <li><a href="index.html#corporate" class="hover:text-amethyst">ISO Consulting</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4">Compliance</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="index.html#corporate" class="hover:text-amethyst">ROC Statutory Filings</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4">Contact</h4>
+                <p class="text-sm">Colombo, Sri Lanka</p>
+                <p class="text-sm">info@amethyst.lk</p>                
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 mt-12 pt-8 border-t border-gray-800 text-center text-xs">
+            © 2024 Amethyst Global. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

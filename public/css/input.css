@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --amethyst: #7B61FF;
+  --amethyst-dark: #5a46cc;
+}
+
+.bg-amethyst {
+  background-color: var(--amethyst);
+}
+
+.text-amethyst {
+  color: var(--amethyst);
+}
+
+.border-amethyst {
+  border-color: var(--amethyst);
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}

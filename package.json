@@ -1,0 +1,14 @@
+{
+  "name": "amethyst-global",
+  "version": "1.0.0",
+  "description": "Amethyst Global - Digital Engineering & Corporate Solutions",
+  "scripts": {
+    "dev": "tailwindcss -i ./public/css/input.css -o ./public/css/style.css --watch",
+    "build": "tailwindcss -i ./public/css/input.css -o ./public/css/style.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16"
+  }
+}
