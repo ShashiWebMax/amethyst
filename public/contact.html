@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Amethyst Global</title>
-    <link href="css/style.css?v=1766475123" rel="stylesheet">
+    <link href="css/style.css?v=1766554917" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 
@@ -36,6 +36,32 @@
             </div>
         </div>
     </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="fixed top-0 left-0 right-0 bg-gray-900 z-50 hidden">
+        <div class="flex flex-col h-full">
+            <div class="flex justify-between items-center p-6 border-b border-gray-700">
+                <div class="flex items-center gap-2">
+                    <img src="img/amethyst.png" alt="Amethyst Logo" class="h-8 w-auto">
+                    <span class="text-xl font-bold text-white tracking-tight">AMETHYST <span
+                            class="text-gray-400 text-base">Global</span></span>
+                </div>
+                <button id="mobile-menu-close" class="text-white text-3xl focus:outline-none">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <nav class="flex flex-col p-6 space-y-6">
+                <a href="index.html#digital"
+                    class="text-white text-xl font-medium hover:text-amethyst transition mobile-menu-link">Digital &
+                    Tech</a>
+                <a href="index.html#corporate"
+                    class="text-white text-xl font-medium hover:text-amethyst transition mobile-menu-link">Corporate</a>
+                <a href="contact.html"
+                    class="bg-amethyst text-white px-6 py-3 rounded-full font-semibold hover:bg-amethyst-dark transition shadow-lg text-center">Contact
+                    Us</a>
+            </nav>
+        </div>
+    </div>
 
     <div class="gradient-bg text-white py-16 px-4">
         <div class="max-w-7xl mx-auto text-center">
@@ -121,7 +147,7 @@
             <div>
                 <h4 class="text-white font-bold mb-4">Contact</h4>
                 <p class="text-sm">Colombo, Sri Lanka</p>
-                <p class="text-sm">info@amethyst.lk</p>                
+                <p class="text-sm">info@amethyst.lk</p>
             </div>
         </div>
         <div class="max-w-7xl mx-auto px-4 mt-12 pt-8 border-t border-gray-800 text-center text-xs">
