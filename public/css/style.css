@@ -570,10 +570,6 @@ video {
   position: sticky;
 }
 
-.inset-0 {
-  inset: 0px;
-}
-
 .-left-10 {
   left: -2.5rem;
 }
@@ -582,16 +578,16 @@ video {
   top: -2.5rem;
 }
 
-.top-0 {
-  top: 0px;
-}
-
 .left-0 {
   left: 0px;
 }
 
 .right-0 {
   right: 0px;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .z-10 {
@@ -981,10 +977,6 @@ video {
   background-color: rgb(254 249 195 / var(--tw-bg-opacity, 1));
 }
 
-.bg-opacity-95 {
-  --tw-bg-opacity: 0.95;
-}
-
 .p-6 {
   padding: 1.5rem;
 }
@@ -1304,6 +1296,10 @@ video {
 
 .hover\:underline:hover {
   text-decoration-line: underline;
+}
+
+.hover\:opacity-80:hover {
+  opacity: 0.8;
 }
 
 .hover\:shadow-md:hover {
