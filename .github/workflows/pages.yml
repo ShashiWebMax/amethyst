@@ -3,9 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
-      - diploy
-  workflow_dispatch:
+      - prod
 
 permissions:
   contents: read
@@ -22,6 +20,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          ref: prod
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
